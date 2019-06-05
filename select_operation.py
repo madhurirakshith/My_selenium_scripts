@@ -10,4 +10,6 @@ qspiders.find_element_by_xpath("//input[(@aria-label='Mobile number or email add
 qspiders.find_element_by_xpath("//input[(@aria-label='New password')]").send_keys("rakma035@")
 qspiders.find_element_by_xpath("//input[@value='1']").click()
 qspiders.find_element_by_name("websubmit").click()
-qspiders.find_element_by_xpath("//select[id='day')]").click()
+qspiders.find_element_by_xpath("//select[@name='birthday_day']/option[@value='5']").click()
+qspiders.find_element_by_xpath("//select[@name='birthday_month']/option[@value='2']").click()
+qspiders.find_element_by_xpath("//select[@name='birthday_year']/option[@value='1988']").click()
